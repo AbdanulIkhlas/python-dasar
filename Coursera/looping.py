@@ -1,4 +1,4 @@
-#! PERULANGAN
+
 #! WHILE
 x = 0
 while x < 5 :
@@ -12,3 +12,12 @@ print("last x : " + str(x))
 # username = getUsername()
 # while not validUsername(username):
 #     print("invalid username")
+
+#! Foor Loop
+print("")
+for x in range(5):
+    print("hello world " + str(x))
+
+friends = ['Taylor', 'Klaz', 'Alex']
+for friend in friends:
+    print("Hi " + friend)
