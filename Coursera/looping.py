@@ -24,18 +24,19 @@
 
 # print("===============")
 # #* For dengan range 3 parameter (awal,akhir,step)
+""" 
+bisa juga 2 parameter dalam range(awal,akhir)
+"""
 # def to_celcius(x):
 #     return (x-32)*5/9
 
 # for x in range(0,101,10): #? 0 : awal, 101 : akhir, dalam 10 langkah
 #     print(x,"F = ",to_celcius(x), "C" )
 
-for n in range(6,18+1,3):
-    print(n*2)
+# for n in range(6,18+1,3):
+#     print(n*2)
 
-# """ 
-# bisa juga 2 parameter dalam range(awal,akhir)
-# """
+
 
 # #* Iterasi Mundur
 # for x in range(2, -2, -1):
@@ -43,8 +44,15 @@ for n in range(6,18+1,3):
 
 
 #* Mencetak seperti domino
-for left in range(7):
-    for right in range(left,7):
-        print("[",left,"|",right,"]",end=" ")
-    print()
+# for left in range(7):
+#     for right in range(left,7):
+#         print("[",left,"|",right,"]",end=" ")
+#     print()
 
+#! Rekursif function
+def factorial(n):
+    if n < 2:
+        return 1
+    return n * factorial(n-1)
+
+print("3! = ",factorial(3))
