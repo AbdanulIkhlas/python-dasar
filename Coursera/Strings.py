@@ -72,3 +72,22 @@ print("...".join(varTemp6))
 varTemp7 = "Last Sentence in this example"
 #? split to array strings
 print(varTemp7.split())
+
+#! formatting strings
+def student_grade(name, grade):
+	return "{X} received {Y}% on the exam".format(X=name, Y=grade)
+
+print(student_grade("Reed", 80))
+print(student_grade("Paige", 92))
+print(student_grade("Jesse", 85))
+
+
+def toCelcius(x):
+    return (x-32)*5/9
+
+for x in range(0,101,10):
+    """ 
+        {:>3} : artinya memberikan 3 space untuk nilai ini, seperti setw(3)
+        {:>6.2f} : artinya memberikan 6 space untuk hasil toCelcius dengan pembulatan 2 angka di belakang koma
+    """
+    print("{:>3} F | {:>6.2f} C".format(x,toCelcius(x)))
