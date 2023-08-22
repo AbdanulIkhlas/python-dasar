@@ -19,4 +19,5 @@
 # print(calculate_storage(4097)) # Should be 8192
 # print(calculate_storage(6000)) # Should be 8192
 
-print(0 / 2)
+for n in range(0,18+1,2):
+    print(n*2)
