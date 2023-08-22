@@ -21,3 +21,15 @@ for x in range(5):
 friends = ['Taylor', 'Klaz', 'Alex']
 for friend in friends:
     print("Hi " + friend)
+
+print("===============")
+#* For dengan range 3 parameter (awal,akhir,step)
+def to_celcius(x):
+    return (x-32)*5/9
+
+for x in range(0,101,10): #? 0 : awal, 101 : akhir, dalam 10 langkah
+    print(x,"F = ",to_celcius(x), "C" )
+
+""" 
+bisa juga 2 parameter dalam range(awal,akhir)
+"""
