@@ -19,5 +19,20 @@
 # print(calculate_storage(4097)) # Should be 8192
 # print(calculate_storage(6000)) # Should be 8192
 
-for n in range(0,18+1,2):
-    print(n*2)
+num1 = 0
+num2 = 0
+
+for x in range(5):
+    num1 = x
+    for y in range(14):
+        num2 = y + 3
+
+print(num1 + num2)
+
+def counting():
+    x = 1
+    while x <= 10:
+        print(x)
+        x+=1
+
+counting()
