@@ -12,7 +12,7 @@ name = "klaz"
 # print(alamat[-1]) #? output : A
 # print(alamat[-4]) #? output : o
 
-#! Slide indexing
+#! Slice indexing
 """ mengambil karakter index 1 - 4 """
 # print(alamat[1:4]) #? :: amb
 # fruit = "PotatoKomaO"
