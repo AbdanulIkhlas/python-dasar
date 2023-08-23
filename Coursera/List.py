@@ -3,6 +3,7 @@
 # print(type(x)) # <class 'list'>
 print("Fruits Before Modif")
 fruits = ["pineapple", "banana", "mango"]
+print(type(fruits))
 print(fruits)
 
 #! Menambahkan data
