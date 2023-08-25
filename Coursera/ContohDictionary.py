@@ -30,6 +30,7 @@ def groups_per_user(group_dictionary):
 print(groups_per_user({"local": ["admin", "userA"],
 		"public":  ["admin", "userB"],
 		"administrator": ["admin"] }))
+		
 #! no3
 wardrobe = {
     "shirt":["red","blue","white"],
@@ -61,3 +62,5 @@ groceries = {"bananas": 1.56, "apples": 2.50, "oranges": 0.99, "bread": 4.59,
 print(add_prices(groceries)) # Should print 28.44
 
 #! no5
+
+
