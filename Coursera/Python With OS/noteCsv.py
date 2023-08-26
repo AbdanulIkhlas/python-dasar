@@ -12,7 +12,7 @@ for row in csv_file:
 #! Write csv
 with open("hosts.csv","w") as hosts_csv:
     writer = csv.writer(hosts_csv)
-    writer.writerows(hosts)
+    # writer.writerows(hosts)
 
 
 #! Write and read csv using DictWritter
