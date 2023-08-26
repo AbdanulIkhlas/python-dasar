@@ -1,5 +1,5 @@
 
-#! QUIZ managing file and directories
+"""----------------- QUIZ managing file and directories  ----------------"""
 
 #! No1
 def create_python_script(filename):
@@ -45,7 +45,6 @@ def file_date(filename):
 
 print(file_date("newfile.txt")) 
 # Should be today's date in the format of yyyy-mm-dd
-
 
 #! no 5
 import os
